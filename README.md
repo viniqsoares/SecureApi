@@ -17,5 +17,10 @@ API de exercício construída com foco em segurança e melhores práticas.
 1.  Clone o repositório.
 2.  Execute `dotnet run` dentro da pasta `SecureApi.Api`.
 
+### Endpoints
+
+* `/`: Raiz da API.
+* `/health`: Endpoint de Health Check que retorna o status da aplicação.
+
 ---
 *Versão: 0.1.0-build*
