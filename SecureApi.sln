@@ -7,19 +7,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D279DA9-C03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureApi.Api", "src\SecureApi.Api\SecureApi.Api.csproj", "{4DDFD481-F6DA-4B65-99F5-9734100D92A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Items", "Solutions Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4DDFD481-F6DA-4B65-99F5-9734100D92A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DDFD481-F6DA-4B65-99F5-9734100D92A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DDFD481-F6DA-4B65-99F5-9734100D92A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DDFD481-F6DA-4B65-99F5-9734100D92A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4DDFD481-F6DA-4B65-99F5-9734100D92A3} = {3D279DA9-C03D-4B79-9C9A-1DF28C30B3E2}
