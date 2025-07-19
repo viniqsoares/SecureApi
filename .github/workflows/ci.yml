@@ -25,7 +25,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 8.x # Use a versão do seu projeto
+          dotnet-version: 9.x # Use a versão do seu projeto
 
       - name: Cache SonarCloud packages
         uses: actions/cache@v3
